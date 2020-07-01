@@ -24,5 +24,5 @@ var isPalindrome = function(x) {
     console.log(stringSplitInput)
     return stringSplitInput === x.toString();
 
-    //working solution
+    //working solution, working still (I am testng out vscode configs).
 };
