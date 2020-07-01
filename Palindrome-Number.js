@@ -23,4 +23,6 @@ var isPalindrome = function(x) {
     let stringSplitInput = x.toString().split('').reverse().join('');
     console.log(stringSplitInput)
     return stringSplitInput === x.toString();
+
+    //working solution
 };
