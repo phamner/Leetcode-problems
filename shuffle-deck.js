@@ -51,3 +51,6 @@ let freshDeck = new Deck();
 console.log(freshDeck.deck);
 freshDeck.shuffle();
 console.log(freshDeck.deck);
+freshDeck.deal();
+console.log(freshDeck.deck);
+
