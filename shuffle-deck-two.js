@@ -21,3 +21,7 @@ class Deck {
         return this.deck;
     }
 }
+
+const freshyDeck = new Deck();
+
+console.log(freshyDeck.deck)
