@@ -7,9 +7,10 @@
 let checkIfFuzzyPalindrones = function(word1, word2){
     let upperCaseWord1 = word1.toUpperCase();
     let upperCaseWord2 = word2.toUpperCase();
-    let reversedWord1 = upperCaseWord1.split('').reverse().join('');
-
+    let reversedWord1 = upperCaseWord1.split('');
+    console.log(reversedWord1)
     return reversedWord1 === upperCaseWord2;
 }
 
-console.log(checkIfFuzzyPalindrones('Racecar', 'racecar'));
+
+console.log(checkIfFuzzyPalindrones('Race car', 'racecar'));
